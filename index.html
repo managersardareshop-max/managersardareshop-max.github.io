@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mohammad Shoaib | Personal Website</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #eef6ff, #dbeafe);
+            color: #222;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+
+        nav {
+            width: 100%;
+            background: white;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #123c7a;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #1769e0;
+        }
+
+        /* Main Section */
+
+        .container {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 25px;
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        /* Profile Image */
+
+        .image-box {
+            flex: 1;
+            text-align: center;
+        }
+
+        .image-box img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #e5efff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Text */
+
+        .content {
+            flex: 1;
+        }
+
+        .small-title {
+            color: #1769e0;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #102a56;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: #555;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        /* Button */
+
+        .btn {
+            display: inline-block;
+            background: #1769e0;
+            color: white;
+            padding: 13px 28px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0d47a1;
+            transform: translateY(-2px);
+        }
+
+        /* Information Section */
+
+        .info-section {
+            margin-top: 40px;
+            background: white;
+            border-radius: 20px;
+            padding: 35px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .info-section h2 {
+            color: #102a56;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .info-box {
+            background: #f5f9ff;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .info-box strong {
+            display: block;
+            color: #1769e0;
+            margin-bottom: 7px;
+        }
+
+        .info-box span {
+            color: #444;
+        }
+
+        /* Footer */
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* Mobile Responsive */
+
+        @media (max-width: 768px) {
+
+            nav {
+                padding: 18px 5%;
+            }
+
+            nav a {
+                margin-left: 10px;
+                font-size: 13px;
+            }
+
+            .container {
+                margin: 30px auto;
+            }
+
+            .card {
+                flex-direction: column;
+                text-align: center;
+                padding: 35px 20px;
+            }
+
+            .image-box img {
+                width: 220px;
+                height: 220px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            h2 {
+                font-size: 19px;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <div class="logo">
+            MS
+        </div>
+
+        <div>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Main Profile -->
+
+    <div class="container">
+
+        <div class="card">
+
+            <div class="image-box">
+
+                <img src="photo.jpg" alt="Mohammad Shoaib">
+
+            </div>
+
+
+            <div class="content">
+
+                <div class="small-title">
+                    WELCOME TO MY WEBSITE
+                </div>
+
+                <h1>
+                    Mohammad Shoaib
+                </h1>
+
+                <h2>
+                    Student & Online Business Enthusiast
+                </h2>
+
+                <p>
+                    আমি শোয়েব। খুলনা, বাগেরহাটে জন্মগ্রহণ করেছি।
+                    বর্তমানে ঢাকার মিরপুরে বসবাস করছি এবং
+                    দুয়ারীপাড়া গভর্নমেন্ট কলেজে পড়াশোনা করি।
+                    আমার বয়স উনিশ।
+                    বর্তমানে লেখাপড়ার পাশাপাশি অনলাইন ব্যবসা নিয়ে কাজ করছি।
+                </p>
+
+                <a href="#contact" class="btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- About Section -->
+
+        <div class="info-section" id="about">
+
+            <h2>
+                About Me
+            </h2>
+
+            <div class="info-grid">
+
+                <div class="info-box">
+
+                    <strong>
+                        Name
+                    </strong>
+
+                    <span>
+                        Mohammad Shoaib
+                    </span>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <strong>
+                        Age
+                    </strong>
+
+                    <span>
+                        19 Years
+                    </span>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <strong>
+                        Hometown
+                    </strong>
+
+                    <span>
+                        Khulna, Bagerhat
+                    </span>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <strong>
+                        Current Location
+                    </strong>
+
+                    <span>
+                        Mirpur, Dhaka
+                    </span>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <strong>
+                        Education
+                    </strong>
+
+                    <span>
+                        Duaripara Government College
+                    </span>
+
+                </div>
+
+
+                <div class="info-box">
+
+                    <strong>
+                        Work
+                    </strong>
+
+                    <span>
+                        Online Business
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Contact Section -->
+
+        <div class="info-section" id="contact">
+
+            <h2>
+                Contact Me
+            </h2>
+
+            <p>
+                If you would like to contact me, feel free to get in touch.
+            </p>
+
+            <a href="mailto:your-email@example.com" class="btn">
+                Send Me an Email
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        © 2026 Mohammad Shoaib. All Rights Reserved.
+
+    </footer>
+
+
+</body>
+
+</html>
